@@ -3,24 +3,24 @@ Creating a sample django web application work on windows
 
 *  [Refer Here](https://chocolatey.org/install#individual) to install Chocolatey on Windows 10/11
 
-* To install Python 3.11, run the following command from PowerShell (Run as Administrator) :
+* To install Python 3.11, run the following command from PowerShell _(Run as Administrator)_:
 ```
 choco install python311
 ```
-* All supported versions of Python3 include pip, so just make sure it’s updated:
+* All supported versions of python3 include pip, so just make sure it’s updated:
 ```
 python -m pip install -U pip
 ```
 
 * So, coming back to our project i.e., [django framework](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)
 
-1. Create a folder anywhere in your m/c
+1. Create a folder anywhere in your local m/c
 ```
 mkdir django-starter
 cd .\django-starter\
 ```
 
-2. Run the following command inside django-starter directory
+2. Run the following command inside django-starter\
 ```
 python -m venv .venv
 ```
@@ -30,7 +30,7 @@ python -m venv .venv
 .\.venv\Scripts\activate
 ```
 
-4. Now Install Django
+4. Install Django
 ```
 pip install django
 ```
@@ -40,7 +40,7 @@ pip install django
 django-admin startproject mysite
 ```
 
-6. A new directory is created which is mysite
+6. A new directory is created which is _mysite_
 ```
 cd .\mysite\
 ```
@@ -49,9 +49,10 @@ cd .\mysite\
 ```
 python manage.py runserver
 ```
+
 * You’ll get the following output on the command line:
 
-```py
+```php
 Watching for file changes with StatReloader
 Performing system checks...
 
@@ -69,11 +70,10 @@ Not Found: /favicon.ico
 [23/Sep/2023 22:12:04] "GET /favicon.ico HTTP/1.1" 404 2110
 ```
 
-8. Finally, access the django web application at
+8. Finally, access the django web application
 ```
 http://127.0.0.1:8000/
 ```
-
 ## Reference
 
 > _**[Django Project](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)**_
