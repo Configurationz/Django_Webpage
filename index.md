@@ -70,7 +70,7 @@ Not Found: /favicon.ico
 [23/Sep/2023 22:12:04] "GET /favicon.ico HTTP/1.1" 404 2110
 ```
 
-8. Finally, access the django web application
+* Finally, access the django web application
 ```
 http://127.0.0.1:8000/
 ```
