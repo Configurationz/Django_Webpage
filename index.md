@@ -75,6 +75,6 @@ Not Found: /favicon.ico
 http://127.0.0.1:8000/
 ```
 
-## Reference
+## Reference ~
 
-> _**[Django Project](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)**_
+> _**[Django Project](https://docs.djangoproject.com/en/4.2/intro/tutorial01/)**_ 🐍 
