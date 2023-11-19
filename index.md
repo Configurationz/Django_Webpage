@@ -72,6 +72,10 @@ Not Found: /favicon.ico
 
 * Finally, access the django web application
 ```
+http://localhost:8000/
+```
+* OR
+```
 http://127.0.0.1:8000/
 ```
 
